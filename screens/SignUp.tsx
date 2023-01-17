@@ -252,7 +252,7 @@ const SignUp = () => {
 
   return (
     <KeyboardAvoidingView
-      behavior={Platform.OS === 'ios' ? 'padding' : null}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       style={{flex: 1}}>
       <LinearGradient colors={[COLORS.lime, COLORS.emerald]} style={{flex: 1}}>
         <ScrollView>
